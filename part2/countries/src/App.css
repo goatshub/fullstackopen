@@ -1,0 +1,23 @@
+.App{
+        width: 760px;
+        padding: 25px;
+        margin: auto;
+}
+.countryInfoDiv{
+        border: solid 1px black;
+        margin: 10px;
+        padding: 15px;
+        width: 400px;
+}
+.countryListDiv{
+        margin: 5px;
+        padding: 5px;
+}
+.countryList{
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+}
+.countryList:hover{
+        background-color: #ede8e8;
+}
