@@ -1,5 +1,6 @@
 import axios from "axios";
-const baseUrl = "http://localhost:3001/persons";
+// const baseUrl = "http://localhost:3001/persons"; // old ex 2 json server endpoint
+const baseUrl = "http://localhost:3001/api/persons"; // ex 3 node endpoint
 const getAll = () => {
   const response = axios.get(baseUrl);
   return response.then((res) => res.data);
